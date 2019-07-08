@@ -1,0 +1,11 @@
+import Foxr from './api/Foxr';
+import Browser from './api/Browser';
+import Page from './api/Page';
+import JSHandle from './api/JSHandle';
+import ElementHandle from './api/ElementHandle';
+declare const _default: Foxr;
+export default _default;
+export declare type TBrowser = Browser;
+export declare type TPage = Page;
+export declare type TJSHandle = JSHandle;
+export declare type TElementHandle = ElementHandle;
